@@ -1,0 +1,460 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('/fonts/poppins.regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('/fonts/poppins.bold.ttf') format('ttf');
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+.prueba {
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.sec1 {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-style: italic;
+    font-size: 32px;
+}
+
+.sec2 {
+    font-family: 'Poppins';
+    font-weight: normal;
+}
+
+.sec2-justify {
+    font-family: 'Poppins';
+    font-weight: normal;
+    text-align: justify;
+}
+
+.equipo1 {
+    font-family: 'Poppins';
+    font-weight: normal;
+    font-weight: bold;
+    font-size: 44px;
+    color: #00a1a1;
+}
+
+.equipo2 {
+    font-family: 'Poppins';
+    font-weight: normal;
+    font-size: 20px;
+    color: #0a55a3;
+    text-align: justify;
+}
+
+.equipo3 {
+    font-family: 'Poppins';
+    font-weight: lighter;
+    font-size: 20px;
+    color: #00a1a1;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.programa1 {
+    font-family: 'Poppins';
+    font-weight: bolder;
+    font-weight: bold;
+    font-size: 44px;
+    color: #00a1a1;
+}
+
+.sec3 {
+    font-family: 'Poppins';
+    font-weight: normal;
+    color: #575756;
+}
+
+.conve1 {
+    font-family: 'Poppins';
+    font-weight: normal;
+    color: #0a55a3;
+    font-weight: bold;
+}
+
+.conve2 {
+    font-family: 'Poppins';
+    font-weight: normal;
+    color: #0a55a3;
+    font-weight: bold;
+    text-align: center;
+}
+
+.texto {
+    font-family: 'Poppins';
+    font-weight: normal;
+}
+
+.programa2 {
+    font-family: 'Poppins';
+    font-weight: bolder;
+    font-weight: bold;
+    font-size: 14px;
+    color: #00a1a1;
+}
+
+.boton {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.programa4 {
+    font-family: 'Poppins';
+    font-weight: bolder;
+    font-weight: bold;
+    font-size: 20px;
+    color: #00a1a1;
+}
+
+.texto1 {
+    font-family: 'Poppins';
+    font-weight: normal;
+    color: #575756;
+}
+
+.texto2 {
+    font-family: 'Poppins';
+    font-weight: bolder;
+    color: #0a55a3;
+}
+
+.texto3 {
+    font-family: 'Poppins';
+    font-weight: bolder;
+    color: #0a55a3;
+    font-size: 17px;
+}
+
+.texto4 {
+    font-family: 'Poppins';
+    font-weight: bolder;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+}
+
+.unique-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.unique-table-header {
+    background-color: #00a1a1;
+    color: white;
+}
+
+.unique-table th,
+.unique-table td {
+    padding: 10px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.unique-table tbody tr:hover {
+    background-color: rgba(0, 161, 161, 0.1);
+}
+
+.unique-download-btn {
+    padding: 8px 15px;
+    background-color: transparent;
+
+    border-radius: 5px;
+    color: #00a1a1;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.unique-download-btn:hover {
+    background-color: #00a1a1;
+    color: white;
+}
+
+.linea {
+    font-family: 'Poppins';
+    font-weight: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #00a1a1;
+}
+
+.titulo-grande {
+    font-family: 'Poppins';
+    font-weight: bolder;
+    font-size: 41px;
+    color: #0a55a3;
+    text-align: center;
+}
+
+.titulo {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 20px;
+    color: #0a55a3;
+}
+
+.subtitulo {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 18px;
+    color: #00a1a1;
+}
+
+.contenido {
+    font-family: 'Poppins';
+    font-weight: normal;
+    font-size: 17px;
+    color: #575756;
+    text-align: justify;
+}
+
+.label1 {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+}
+
+.primario {
+    font-family: 'Poppins';
+    background-color: #00a1a1;
+}
+
+.tituloL {
+    font-family: 'Poppins';
+    color: #0a55a3;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.tituloL1 {
+    font-family: 'Poppins';
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.textoL {
+
+    font-family: 'Poppins';
+    font-size: 12.5px;
+    color: #575756;
+}
+.textoL1 {
+
+    font-family: 'Poppins';
+    font-size: 17px;
+    color: #0a55a3;
+    font-weight: bold;
+}
+.textoL2 {
+
+    font-family: 'Poppins';
+    font-size: 14px;
+    color: #575756;
+    font-weight: bold;
+}
+.textoL4 {
+
+    font-family: 'Poppins';
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.textoL3 {
+    font-family: 'Poppins';
+    font-size: 20px;
+    color: #0a55a3;
+    font-weight: bold;
+    text-align: left;
+}
+.azul{
+    background-color: #0a55a3;
+}
+.blanco{
+    background-color: white;
+}
+
+.verde
+{
+    background-color: #00a1a1;
+}
+.plomo{
+    background-color: #575756;
+}
+.borde{
+    border: #0a55a3;
+}
+
+.blanco{
+    background-color: white;
+}
+
+.textoV{
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 18px;
+    color: #00a1a1;
+}
+
+.fondo {
+    background-image: url('img/Recurso5.png');
+    background-size: cover; /* Asegura que la imagen cubra toda la sección */
+    background-position: center; /* Centra la imagen */
+    height: 500px; /* Ajusta la altura según necesites */
+}
+
+
+.text-\[\#00a1a1\] {
+    --tw-text-opacity: 1;
+    color: rgb(0 161 161 / var(--tw-text-opacity)) /* #00a1a1 */;
+}
+.bg-\[\#0a55a3\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(10 85 163 / var(--tw-bg-opacity)) /* #0a55a3 */;
+}
+.bg-\[\#00a1a1\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(0 161 161 / var(--tw-text-opacity))/* #0a55a3 */;
+}
+
+.bg-\[\#575756\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(87 87 86 / var(--tw-bg-opacity)) /* #575756 */;
+}
+
+.texto-blanco{
+    font-family: 'Poppins';
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bold;
+
+}
+
+.texto-blanco2{
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: bold;
+
+}
+.texto-verde{
+    font-family: 'Poppins';
+    font-size: 20px;
+    color: #00a1a1;
+    font-weight: bold;
+
+}
+
+.textoMe{
+    font-family: 'Poppins';
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+}
+
+.textoEdu{
+    font-family: 'Poppins';
+    font-size: 60px;
+    color: white;
+    font-weight: bolder;
+}
+
+.r-img {
+    max-width: 100%; /* Se ajusta al tamaño máximo del contenedor */
+    height: auto; /* Mantiene la proporción */
+}
+
+.colorT{
+    font-family: 'Poppins';
+    font-size: 60px;
+    color: white;
+    font-weight: bolder;
+    font-style: italic;
+}
+.colorT1{
+    font-family: 'Poppins';
+    font-size: 60px;
+    color: #0a55a3;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.bg-teal-700 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(15 118 110 / var(--tw-bg-opacity)) /* #0f766e */;
+}
+
+.texto-azul{
+    font-family: 'Poppins';
+    font-size: 18px;
+    color: #0a55a3;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.texto-azul2{
+    font-family: 'Poppins';
+    font-size: 25px;
+    color: #0a55a3;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.texto-negro{
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: #575756;
+    font-weight: bolder;
+    font-style: italic;
+}
+.texto-blanco1{
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: white;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.texto-negro1{
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: #575756;
+    font-weight: bolder;
+    text-align: justify;
+}
+
+.texto-negro2{
+    font-family: 'Poppins';
+    font-size: 14px;
+    color: #575756;
+    font-weight: bolder;
+    text-align: justify;
+}
+
+.textoMod{
+    font-family: 'Poppins';
+    font-size: 60px;
+    color: white;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.bg-plomo {
+    --tw-bg-opacity: 0.5;
+    background-color: rgb(0 0 0 / var(--tw-bg-opacity)) /* #000000 */;
+}
